@@ -19,30 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Hi there! I'm Shubham Sisodia, a web developer dedicated to creating
+        dynamic and user-friendly websites.My journey began with a background in
+        Business Economics from Delhi University, but my fascination with
+        technology led me into the world of coding.
       </p>
-
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I'm enthusiastic about learning and proficient in technologies like
+        React.js, Next.js, Node.js, and MongoDB, which I've been learning
+        through self-study and projects.
+      </p>
+      <p className="mt-2">
+        This portfolio showcases my projects and journey in web development. I'm
+        excited to learn and grow in this field, so let's connect and create
+        something amazing together!
       </p>
     </motion.section>
   );
