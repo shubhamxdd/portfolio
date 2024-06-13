@@ -140,6 +140,7 @@ export const skillsData = [
   "NextAuth",
   "Node.js",
   "Git",
+  "Zod",
   "Tailwind",
   "Prisma",
   "PostgreSQL",
