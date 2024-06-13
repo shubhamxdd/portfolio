@@ -40,19 +40,19 @@ export default function Project({
           <div className="flex items-center justify-between">
             <h3 className="text-2xl font-semibold">{title}</h3>
             <div className="flex gap-4">
-              <span className="hover:scale-[1.25] transition-all duration-300 rounded-full bg-gray-500 p-1">
+              <span className="hover:scale-[1.25] transition-all duration-300 rounded-full dark:bg-gray-500 bg-gray-200 p-1">
                 <a href={live_link} target="_blank">
                   <TbExternalLink size={20} color="black" />
                 </a>
               </span>
-              <span className="hover:scale-[1.25] transition-all duration-300 rounded-full  bg-gray-500 p-1">
+              <span className="hover:scale-[1.25] transition-all duration-300 rounded-full  dark:bg-gray-500 bg-gray-200 p-1">
                 <a href={github_link} target="_blank">
                   <FaGithub size={20} color="black" />
                 </a>
               </span>
             </div>
           </div>
-          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
+          <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 mb-2">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
