@@ -35,6 +35,7 @@ export const links = [
   },
 ] as const;
 
+/*
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
@@ -61,41 +62,70 @@ export const experiencesData = [
     date: "2021 - present",
   },
 ] as const;
-
+*/
 export const projectsData = [
   {
     title: "E-commerce",
+    live_link: "https://e-commerce-gamma-six-62.vercel.app",
+    github_link: "https://github.com/shubhamxdd/e-commerce",
     description:
-      "I developed an e-commerce platform using Next.js, TypeScript, and MongoDB, with a admin dashboard for managing products, orders, and users. Platform includes user authentication with NextAuth, payment processing via Stripe, and email notifications using Nodemailer.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Developed an e-commerce platform using Next.js, with admin dashboard, where users can buy and sell products.",
+    tags: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "MongoDB",
+      "Tailwind",
+      "ShadCn UI",
+      "Prisma",
+      "NextAuth",
+      "Stripe",
+    ],
     imageUrl: ecommerceImg,
   },
   {
     title: "Airbnb Clone",
+    live_link: "https://next-airbnb-clone-theta.vercel.app/",
+    github_link: "https://github.com/shubhamxdd/next_airbnb_clone",
     description:
-      "I created an Airbnb clone using Next.js, TypeScript, and MongoDB, featuring property listings with search and filter capabilities, secure user authentication with NextAuth, and a booking system.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developed an Airbnb clone using Next.js, TypeScript, and MongoDB, featuring property listings with search and filters, and a booking system.",
+    tags: ["React", "Next.js", "Typescript", "MongoDB", "Tailwind", "NextAuth"],
     imageUrl: airbnb_cloneImg,
   },
   {
     title: "Event Management",
+    live_link: "https://event-management-fawn.vercel.app/",
+    github_link: "https://github.com/shubhamxdd/event-management",
     description:
-      "I developed an event management app using Next.js, TypeScript, and MongoDB, enabling users to create, update, and manage events with secure payments through Stripe and user authentication with Clerk.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed an event management app using Next.js, TypeScript, and MongoDB, enabling users to create, update, and manage events.",
+    tags: [
+      "React",
+      "Next.js",
+      "Typescript",
+      "MongoDB",
+      "Tailwind",
+      "ShadCn UI",
+      "Clerk",
+      "Stripe",
+    ],
     imageUrl: event_managementImg,
   },
   {
     title: "Issue Tracker",
+    live_link: "https://nextracker.vercel.app/",
+    github_link: "https://github.com/shubhamxdd/nextracker",
     description:
-      "I developed an issue tracker app using Next.js, TypeScript, and Prisma, featuring efficient issue management, user authentication with NextAuth, and real-time data updates with React Query.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed an issue tracker app using Next.js, TypeScript, and Prisma, featuring efficient issue management.",
+    tags: ["React", "Next.js", "Typescript", "MongoDB", "Tailwind", "NextAuth"],
     imageUrl: issueTracker,
   },
   {
     title: "Game Finder",
+    live_link: "https://game-finder-three.vercel.app/",
+    github_link: "https://github.com/shubhamxdd/game-finder",
     description:
-      "I built a game finder app using React, TypeScript, and Chakra UI, enabling users to search for and discover games with a clean, responsive interface. The app also utilizes Axios for API calls and Framer Motion for smooth animations.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a game finder app using React, TypeScript, and Chakra UI, enabling users to search and discover games.",
+    tags: ["React", "Typescript", "Tailwind", "Chakra UI"],
     imageUrl: gameFinder,
   },
 ] as const;
