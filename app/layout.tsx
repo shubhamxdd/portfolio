@@ -6,12 +6,14 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+export const metadata: Metadata = {
+  title: "Shubham | Portfolio ",
+  description:
+    "Welcome to my portfolio! I am a Full-Stack Developer specializing in creating dynamic and responsive web applications using technologies like Next.js, React, and Node.js. Explore my projects and learn more about my skills and experience.",
 };
 
 export default function RootLayout({
