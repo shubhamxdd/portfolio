@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecommerceImg from "@/public/ecom.png";
+import airbnb_cloneImg from "@/public/airbnb.png";
+import event_managementImg from "@/public/event.png";
+import issueTracker from "@/public/issuetracker.png";
+import gameFinder from "@/public/gamefinder.png";
 
 export const links = [
   {
@@ -62,25 +64,39 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-commerce",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I developed an e-commerce platform using Next.js, TypeScript, and MongoDB, with a admin dashboard for managing products, orders, and users. Platform includes user authentication with NextAuth, payment processing via Stripe, and email notifications using Nodemailer.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: ecommerceImg,
   },
   {
-    title: "rmtDev",
+    title: "Airbnb Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I created an Airbnb clone using Next.js, TypeScript, and MongoDB, featuring property listings with search and filter capabilities, secure user authentication with NextAuth, and a booking system.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: airbnb_cloneImg,
   },
   {
-    title: "Word Analytics",
+    title: "Event Management",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "I developed an event management app using Next.js, TypeScript, and MongoDB, enabling users to create, update, and manage events with secure payments through Stripe and user authentication with Clerk.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: event_managementImg,
+  },
+  {
+    title: "Issue Tracker",
+    description:
+      "I developed an issue tracker app using Next.js, TypeScript, and Prisma, featuring efficient issue management, user authentication with NextAuth, and real-time data updates with React Query.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: issueTracker,
+  },
+  {
+    title: "Game Finder",
+    description:
+      "I built a game finder app using React, TypeScript, and Chakra UI, enabling users to search for and discover games with a clean, responsive interface. The app also utilizes Axios for API calls and Framer Motion for smooth animations.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    imageUrl: gameFinder,
   },
 ] as const;
 
@@ -97,11 +113,7 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
