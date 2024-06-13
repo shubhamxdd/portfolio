@@ -39,13 +39,15 @@ export const sendEmail = async (formData: FormData) => {
     );
     const mailOptions = {
       from: `Contact Form <${process.env.GMAIL_USER}>`,
-      to: senderEmail,
+      to: "shubhamsisodia84@gmail.com",
       subject: `Message from contact form from ${senderEmail}`,
 
       html: mail,
     };
 
     const mailers = await transporter.sendMail(mailOptions);
+
+    console.log(mailers);
 
     return mailers;
   } catch (error: unknown) {
