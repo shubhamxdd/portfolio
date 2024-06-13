@@ -39,7 +39,7 @@ export const sendEmail = async (formData: FormData) => {
     );
     const mailOptions = {
       from: `Contact Form <${process.env.GMAIL_USER}>`,
-      to: "shubhamsisodia84@gmail.com",
+      to: process.env.USER_EMAIL,
       subject: `Message from contact form from ${senderEmail}`,
 
       html: mail,
